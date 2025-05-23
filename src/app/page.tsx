@@ -16,7 +16,7 @@ export default function Home() {
         <p>Explore the cars you might like</p>
       </div>
       <div className="home__filters">
-        <SearchBar />
+       <SearchBar />
 
         <div className="home__filter-container">
           <CustomFilter title="fuel"/>
