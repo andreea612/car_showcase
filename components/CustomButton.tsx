@@ -9,11 +9,11 @@ const CustomButton = ({ title, containerStyles, handleClick, btnType}:CustomButt
     <button
       disabled={false}
       type={btnType || "button"}
-      className={'customt-btn ${containerStyles}'}
+      className={`customt-btn ${containerStyles}`}
       onClick={handleClick}
     >
         <span className={'flex-1'}>
-          title
+          {title}
         </span>
     </button>
   )
