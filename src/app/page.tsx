@@ -1,8 +1,12 @@
 import { Hero } from '../../components'; 
 import Searchbar from "../../components/Searchbar";
 import Customfilter from "../../components/Customfilter";
+import { fetchCars } from '../../utils'; 
 
-export default function Home() {
+export default async function Home() {
+  const allCars = await fetchCars();
+
+  console.log(allCars)
   return (
     <main>
       <Hero />
