@@ -45,11 +45,11 @@ const Footer = () => {
         <div className="footer__copyrights-link">
           <Link href="/"
           className="text-gray-500">
-            Privacy Policy
+            Privacy & Policy
           </Link>
           <Link href="/"
           className="text-gray-500">
-            Terms of use
+            Terms & Condition
           </Link>
         </div>
     </footer>
